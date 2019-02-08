@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Accessibility Blog`,
     author: `Bryan Besnyi`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Brief articles to help further your knowledge about accessibility.`,
+    siteUrl: `https://master.d2ssrym7i3949r.amplifyapp.com/`,
     social: {
       twitter: `BBesnyi`,
     },
