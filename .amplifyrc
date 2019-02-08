@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "blog-20190207214748-authRole",
+            "UnauthRoleArn": "arn:aws:iam::272929162836:role/blog-20190207214748-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::272929162836:role/blog-20190207214748-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "blog-20190207214748-deployment",
+            "UnauthRoleName": "blog-20190207214748-unauthRole",
+            "StackName": "blog-20190207214748",
+            "StackId": "arn:aws:cloudformation:us-west-2:272929162836:stack/blog-20190207214748/11567200-2b65-11e9-845d-0299cad2cdb6"
+        }
+    }
+}

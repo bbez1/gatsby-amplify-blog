@@ -1,0 +1,20 @@
+{
+    "projectName": "blog",
+    "projectPath": "/Users/bryanbesnyi/Projects/blog",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "/Users/bryanbesnyi/.config/yarn/global/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "build",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/Users/bryanbesnyi/.config/yarn/global/node_modules/amplify-provider-awscloudformation"
+    }
+}
