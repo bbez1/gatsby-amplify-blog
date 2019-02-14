@@ -6,6 +6,8 @@ id: 1
 
 Images by default are inaccessible to those who cannot see them due to poor vision or blindness.
 
+In general, images containing text should be avoided in favor of text alternatives to convey the same meaning. This is a legal requirement of the WCAG 2.0/2.1 specification.
+
 ## Images Need Descriptions
 
 ![OmniUpdate Image Tool Screenshot](./image-pane.png)
@@ -16,7 +18,9 @@ Images by default are inaccessible to those who cannot see them due to poor visi
 
 ## For Complex Images Like Graphs
 
-We can provide a description of the image within the text adjacent to the image. Be sure that the *full* contents of the image are portrayed in this description. There are other approaches using HTML that can also be used. [E-mail Bryan Besnyi](mailto:besnyib@smccd.edu) if you have any questions about how this can be achieved.
+We can provide a description of the image within the text adjacent to the image. Be sure that the *full* contents of the image are portrayed in this description. There are other approaches using HTML that can also be used. If there is text on the image itself, it is best practice to include all of the text in the text description.
+
+ [E-mail Bryan Besnyi](mailto:besnyib@smccd.edu) if you have any questions about how this can be achieved.
 
 ## Decorative Images
 
