@@ -12,24 +12,24 @@ class Layout extends React.Component {
     if (location.pathname === rootPath) {
       header = (
         <header>
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h1>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h1>
         </header>
       )
     } else {
@@ -80,7 +80,8 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}, Built with <span aria-label="love">💖</span> in
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a><br />
+          <a href="https://github.com/bbez1/gatsby-amplify-blog">Fork me on Github</a>
         </footer>
       </div>
     )
