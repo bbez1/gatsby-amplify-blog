@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import { listPostLikes } from '../graphql/queries'
 
 const Dashboard = props => (
-  <Layout {...props} title="Gatsby Starter Blog" isDashboard>
+  <Layout {...props} title="Accessibility Blog" isDashboard>
     <h1>Liked Posts</h1>
     <Connect query={graphqlOperation(listPostLikes)}>
       {({ data: { listPostLikes }, loading, error }) => {
