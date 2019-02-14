@@ -77,11 +77,11 @@ class Layout extends React.Component {
         )}
         {header}
         {children}
-        <footer>
+        <footer style={{ textAlign: "center" }}>
           © {new Date().getFullYear()}, Built with <span aria-label="love">💖</span> in
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a><br />
-          <a href="https://github.com/bbez1/gatsby-amplify-blog">Fork me on Github</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a> by Bryan Besnyi<br />
+          <p><a href="https://github.com/bbez1/gatsby-amplify-blog">Fork me on Github</a></p>
         </footer>
       </div>
     )
