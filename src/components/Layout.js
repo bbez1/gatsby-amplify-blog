@@ -67,6 +67,7 @@ class Layout extends React.Component {
               position: `fixed`,
               top: `8px`,
               right: `16px`,
+              zIndex: `9999`
             }}
           >
             <Link to="/dashboard">Dashboard</Link>
@@ -75,7 +76,7 @@ class Layout extends React.Component {
         {header}
         {children}
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built with <span aria-label="love">💖</span> in
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>

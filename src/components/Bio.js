@@ -32,7 +32,7 @@ function Bio() {
             />
             <p>
               Written by <strong>{author}</strong> who lives and works in San
-              Mateo, California building accessible things.
+              Mateo, CA building accessible things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
