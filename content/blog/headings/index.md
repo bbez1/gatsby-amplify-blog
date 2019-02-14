@@ -10,4 +10,4 @@ Headings provide both a primary method of navigation and page hierarchy to users
 
 To better understand headings, it is best to look the _document outline_, which users of assistive technology can use to traverse the page efficiently. 
 
-It is also important to note that, while the **Heading 1** does not need to be the first heading on any given page, each page should have one and only one **Heading 1**
+It is also important to note that, while the **Heading 1** does not need to be the first heading on any given page, each page should have one and only one **Heading 1**. Also, each **Heading 1** should be followed by a **Heading 2** and each **Heading 2**, and if further nesting is needed, should be followed by a **Heading 3**. Jumping from a **Heading 1** to a **Heading 3** can cause confusion for screen reader users.
